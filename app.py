@@ -108,65 +108,65 @@ def get_due_today(revisao_data):
 # ── Calendário semanal ────────────────────────────────────────────────────
 CALENDARIO = {
     "Segunda": [
-        {"bloco": "Bloco 1 — 1h30", "area": "C", "icon": "⚙️", "cor": "#1565c0",
+        {"bloco": "Bloco 1 — 1h30", "area": "C — Lógica", "icon": "⚙️", "cor": "#1565c0",
          "desc": "Lógica e algoritmos — CS50 ou exercícios"},
         {"bloco": "Bloco 2 — 1h30", "area": "Python Conceitos", "icon": "🐍", "cor": "#2e7d32",
-         "desc": "Fundamentos: variáveis, funções, estruturas de dados"},
+         "desc": "Fundamentos, funções, estruturas de dados"},
         {"bloco": "Bloco 3 — 30min", "area": "ENEM", "icon": "📚", "cor": "#78909c",
          "desc": "Matemática"},
-        {"bloco": "Passivo — manhã/noite", "area": "Inglês", "icon": "🌐", "cor": "#e65100",
+        {"bloco": "Passivo", "area": "Inglês", "icon": "🌐", "cor": "#e65100",
          "desc": "Podcast Syntax.fm ou vídeo Fireship"},
     ],
     "Terça": [
-        {"bloco": "Bloco 1 — 1h30", "area": "C", "icon": "⚙️", "cor": "#1565c0",
+        {"bloco": "Bloco 1 — 1h30", "area": "C — Lógica", "icon": "⚙️", "cor": "#1565c0",
          "desc": "Lógica e algoritmos — CS50 ou exercícios"},
-        {"bloco": "Bloco 2 — 1h30", "area": "SQL", "icon": "🗄️", "cor": "#6a1b9a",
-         "desc": "Teoria + exercícios HackerRank"},
+        {"bloco": "Bloco 2 — 1h30", "area": "SQL Avançado 🔴", "icon": "🗄️", "cor": "#c62828",
+         "desc": "Window functions, CTEs, índices, performance"},
         {"bloco": "Bloco 3 — 30min", "area": "ENEM", "icon": "📚", "cor": "#78909c",
          "desc": "Português"},
-        {"bloco": "Passivo — manhã/noite", "area": "Inglês", "icon": "🌐", "cor": "#e65100",
+        {"bloco": "Passivo", "area": "Inglês", "icon": "🌐", "cor": "#e65100",
          "desc": "Ler documentação técnica em inglês"},
     ],
     "Quarta": [
-        {"bloco": "Bloco 1 — 1h30", "area": "C", "icon": "⚙️", "cor": "#1565c0",
+        {"bloco": "Bloco 1 — 1h30", "area": "C — Lógica", "icon": "⚙️", "cor": "#1565c0",
          "desc": "Lógica e algoritmos — CS50 ou exercícios"},
-        {"bloco": "Bloco 2 — 1h30", "area": "Power BI", "icon": "📊", "cor": "#c62828",
+        {"bloco": "Bloco 2 — 45min", "area": "Power BI", "icon": "📊", "cor": "#c62828",
          "desc": "DAX, modelagem e dashboard"},
-        {"bloco": "Bloco 3 — 30min", "area": "ENEM", "icon": "📚", "cor": "#78909c",
-         "desc": "Redação"},
-        {"bloco": "Passivo — manhã/noite", "area": "Inglês", "icon": "🌐", "cor": "#e65100",
+        {"bloco": "Bloco 3 — 45min", "area": "Git Profissional 🔴", "icon": "🌿", "cor": "#c62828",
+         "desc": "Branches, commits semânticos, README"},
+        {"bloco": "Passivo", "area": "Inglês", "icon": "🌐", "cor": "#e65100",
          "desc": "Podcast ou vídeo técnico"},
     ],
     "Quinta": [
-        {"bloco": "Bloco 1 — 1h30", "area": "C", "icon": "⚙️", "cor": "#1565c0",
+        {"bloco": "Bloco 1 — 1h30", "area": "C — Lógica", "icon": "⚙️", "cor": "#1565c0",
          "desc": "Lógica e algoritmos — CS50 ou exercícios"},
         {"bloco": "Bloco 2 — 1h30", "area": "Python Projetos", "icon": "🚀", "cor": "#00695c",
          "desc": "Projeto atual — construir e avançar"},
         {"bloco": "Bloco 3 — 30min", "area": "ENEM", "icon": "📚", "cor": "#78909c",
          "desc": "Ciências da Natureza"},
-        {"bloco": "Passivo — manhã/noite", "area": "Inglês", "icon": "🌐", "cor": "#e65100",
+        {"bloco": "Passivo", "area": "Inglês", "icon": "🌐", "cor": "#e65100",
          "desc": "Anki vocabulário técnico"},
     ],
     "Sexta": [
-        {"bloco": "Bloco 1 — 1h30", "area": "C", "icon": "⚙️", "cor": "#1565c0",
-         "desc": "Revisão da semana em C"},
-        {"bloco": "Bloco 2 — 1h30", "area": "SQL + Power BI", "icon": "📊", "cor": "#6a1b9a",
-         "desc": "Integrar SQL com Power BI — projeto prático"},
+        {"bloco": "Bloco 1 — 1h", "area": "APIs REST 🔴", "icon": "🔌", "cor": "#c62828",
+         "desc": "FastAPI — endpoints, validação, deploy"},
+        {"bloco": "Bloco 2 — 1h", "area": "Pandas Avançado 🔴", "icon": "🐼", "cor": "#c62828",
+         "desc": "merge, groupby, apply, otimização"},
         {"bloco": "Bloco 3 — 30min", "area": "ENEM", "icon": "📚", "cor": "#78909c",
          "desc": "Revisão geral da semana"},
-        {"bloco": "Passivo — manhã/noite", "area": "Inglês", "icon": "🌐", "cor": "#e65100",
+        {"bloco": "Passivo", "area": "Inglês", "icon": "🌐", "cor": "#e65100",
          "desc": "Série ou filme com legenda em inglês"},
     ],
     "Sábado": [
         {"bloco": "Bloco 1 — 1h", "area": "Python Projetos", "icon": "🚀", "cor": "#00695c",
-         "desc": "Avançar no projeto da semana"},
-        {"bloco": "Bloco 2 — 30min", "area": "Revisão Geral", "icon": "🔁", "cor": "#455a64",
-         "desc": "Revisar o que estudou na semana"},
+         "desc": "Avançar no projeto da semana + boas práticas"},
+        {"bloco": "Bloco 2 — 30min", "area": "Python Boas Práticas 🔴", "icon": "✨", "cor": "#c62828",
+         "desc": "Estrutura de projeto, PEP8, type hints"},
         {"bloco": "Passivo", "area": "Inglês", "icon": "🌐", "cor": "#e65100",
          "desc": "Série ou podcast — sem pressão"},
     ],
     "Domingo": [
-        {"bloco": "Descanso", "area": "Descanso", "icon": "😴", "cor": "#90a4ae",
+        {"bloco": "Descanso", "area": "Descanso 😴", "icon": "😴", "cor": "#90a4ae",
          "desc": "O cérebro consolida o aprendizado. Descanse de verdade."},
     ],
 }
@@ -449,6 +449,24 @@ SQL_MODULOS = {
                    "COUNT SUM AVG MAX MIN","INNER JOIN","LEFT JOIN",
                    "subqueries","CREATE TABLE e tipos"]
     },
+    "SQL Avançado 🔴": {
+        "icon": "⚡", "color": "#c62828",
+        "topics": [
+            "Window functions — ROW_NUMBER()",
+            "Window functions — RANK() e DENSE_RANK()",
+            "Window functions — LAG() e LEAD()",
+            "Window functions — SUM() OVER (PARTITION BY)",
+            "CTEs — WITH nome AS (...)",
+            "CTEs recursivas",
+            "Subquery vs CTE — quando usar cada um",
+            "Índices — o que são e por que importam",
+            "EXPLAIN ANALYZE — ler plano de execução",
+            "Performance — evitar SELECT *",
+            "Performance — índices compostos",
+            "Transações — BEGIN, COMMIT, ROLLBACK",
+            "Views e Materialized Views",
+        ]
+    },
 }
 
 # ── Power BI ──────────────────────────────────────────────────────────────
@@ -495,6 +513,168 @@ INGLES_MODULOS = {
                    "interpretação de textos — prova 2021",
                    "gramática básica — tempos verbais",
                    "vocabulário cotidiano ENEM"]
+    },
+}
+
+# ── Carreira — Alta Prioridade 🔴 ─────────────────────────────────────────
+CARREIRA_ALTA = {
+    "Git Profissional 🔴": {
+        "icon": "🌿", "color": "#c62828",
+        "topics": [
+            "git init, add, commit, push, pull",
+            "branches — criar, trocar, deletar",
+            "merge e rebase — diferença e quando usar",
+            "git stash — salvar trabalho temporário",
+            "resolução de conflitos",
+            "commits semânticos — feat:, fix:, docs:, refactor:",
+            "README profissional — estrutura e badges",
+            ".gitignore — o que ignorar em projetos Python",
+            "Pull Requests — como abrir e revisar",
+            "GitHub Actions — CI básico",
+        ]
+    },
+    "Python Boas Práticas 🔴": {
+        "icon": "✨", "color": "#c62828",
+        "topics": [
+            "Estrutura de projeto Python — src/, tests/, docs/",
+            "PEP8 — convenções de estilo",
+            "Black e isort — formatação automática",
+            "Type hints — def fn(x: int) -> str:",
+            "Docstrings — Google style",
+            "Variáveis com nomes descritivos",
+            "Funções com responsabilidade única",
+            "DRY — Don't Repeat Yourself",
+            "requirements.txt e pyproject.toml",
+            "Ambientes virtuais — venv e pip",
+        ]
+    },
+    "APIs REST 🔴": {
+        "icon": "🔌", "color": "#c62828",
+        "topics": [
+            "O que é REST — verbos HTTP (GET, POST, PUT, DELETE)",
+            "Status codes — 200, 201, 400, 401, 404, 500",
+            "Consumir API com requests — GET e POST",
+            "Headers e autenticação — Bearer token",
+            "FastAPI — estrutura básica",
+            "FastAPI — endpoints GET e POST",
+            "FastAPI — Pydantic para validação",
+            "FastAPI — upload de arquivo",
+            "FastAPI — documentação automática (Swagger)",
+            "FastAPI — variáveis de ambiente com .env",
+        ]
+    },
+    "Pandas Avançado 🔴": {
+        "icon": "🐼", "color": "#c62828",
+        "topics": [
+            "merge — inner, left, right, outer",
+            "concat — empilhar DataFrames",
+            "groupby + agg — múltiplas agregações",
+            "apply — função customizada por linha/coluna",
+            "transform — manter shape original",
+            "pivot_table — tabela dinâmica",
+            "melt — wide para long format",
+            "query() — filtros com string",
+            "category dtype — otimização de memória",
+            "chunksize — ler arquivos grandes",
+        ]
+    },
+}
+
+# ── Carreira — Média Prioridade 🟡 ────────────────────────────────────────
+CARREIRA_MEDIA = {
+    "Modelagem de Dados 🟡": {
+        "icon": "🗂️", "color": "#e65100",
+        "topics": [
+            "Tipos de dados — int, varchar, decimal, timestamp",
+            "Chave primária e chave estrangeira",
+            "Normalização — 1NF, 2NF, 3NF",
+            "Relacionamentos — 1:1, 1:N, N:N",
+            "Diagrama ER — entidade e relacionamento",
+            "Star schema — fato e dimensão",
+            "Snowflake schema",
+            "Quando desnormalizar",
+            "Nomenclatura de tabelas e colunas",
+        ]
+    },
+    "Deploy Básico 🟡": {
+        "icon": "🚀", "color": "#e65100",
+        "topics": [
+            "Variáveis de ambiente — .env e python-dotenv",
+            "Streamlit Cloud — deploy do zero",
+            "Render — deploy de FastAPI gratuito",
+            "Railway — banco de dados na nuvem",
+            "requirements.txt correto para deploy",
+            "Logs e monitoramento básico",
+            "Domínio customizado básico",
+        ]
+    },
+    "Testes com Pytest 🟡": {
+        "icon": "🧪", "color": "#e65100",
+        "topics": [
+            "O que é um teste e por que escrever",
+            "pytest — instalação e primeiro teste",
+            "assert — verificar resultados",
+            "Funções de teste — test_nome_funcao()",
+            "Fixtures — setup reutilizável",
+            "Testar funções de dados com pandas",
+            "Testar endpoints FastAPI",
+            "coverage — percentual de código testado",
+        ]
+    },
+    "Estatística Aplicada 🟡": {
+        "icon": "📊", "color": "#e65100",
+        "topics": [
+            "Média, mediana, moda — quando usar cada",
+            "Desvio padrão e variância",
+            "Distribuição normal — o que é e como usar",
+            "Correlação — Pearson e Spearman",
+            "Regressão linear simples",
+            "Teste A/B — conceito e aplicação",
+            "Intervalo de confiança",
+            "p-valor — o que significa na prática",
+        ]
+    },
+}
+
+# ── Carreira — Longo Prazo 🟢 ─────────────────────────────────────────────
+CARREIRA_LONGO = {
+    "LLMs na Prática 🟢": {
+        "icon": "🤖", "color": "#2e7d32",
+        "topics": [
+            "Como funcionam os LLMs — tokens e atenção",
+            "Prompt engineering — system, user, assistant",
+            "Groq API — chamadas básicas",
+            "OpenAI API — estrutura e parâmetros",
+            "RAG — Retrieval Augmented Generation",
+            "Embeddings — o que são e como usar",
+            "LangChain — chains básicas",
+            "LangChain — retrievers e vectorstores",
+            "FAISS — busca por similaridade",
+            "Fine-tuning — conceito e quando usar",
+        ]
+    },
+    "Orquestração de Pipelines 🟢": {
+        "icon": "🔄", "color": "#2e7d32",
+        "topics": [
+            "O que é orquestração e por que usar",
+            "Prefect — conceito e primeiro flow",
+            "Prefect — tasks e dependências",
+            "Prefect — agendamento de flows",
+            "Airflow — conceito e DAGs",
+            "Monitoramento de pipeline",
+        ]
+    },
+    "Cloud Básico 🟢": {
+        "icon": "☁️", "color": "#2e7d32",
+        "topics": [
+            "Conceitos — IaaS, PaaS, SaaS",
+            "AWS S3 — upload e download de arquivos",
+            "AWS Lambda — funções serverless básicas",
+            "AWS RDS — banco de dados gerenciado",
+            "GCP BigQuery — consultas SQL na nuvem",
+            "GCP Cloud Run — deploy de container",
+            "Custos — como não estourar a fatura",
+        ]
     },
 }
 
@@ -568,9 +748,12 @@ done_sql,  total_sql  = count_done(SQL_MODULOS,      lambda mn,t: make_key("SQL"
 done_pbi,  total_pbi  = count_done(POWERBI_MODULOS,  lambda mn,t: make_key("PBI", mn, t))
 done_en,   total_en   = count_done(INGLES_MODULOS,   lambda mn,t: make_key("EN", mn, t))
 done_enem, total_enem = count_done(ENEM,             lambda mn,t: make_enem_key(mn, t))
+done_alta, total_alta = count_done(CARREIRA_ALTA,    lambda mn,t: make_key("Alta", mn, t))
+done_media,total_media= count_done(CARREIRA_MEDIA,   lambda mn,t: make_key("Media", mn, t))
+done_longo,total_longo= count_done(CARREIRA_LONGO,   lambda mn,t: make_key("Longo", mn, t))
 
-done_prog  = done_conc + done_proj + done_c + done_sql + done_pbi
-total_prog = total_conc + total_proj + total_c + total_sql + total_pbi
+done_prog  = done_conc + done_proj + done_c + done_sql + done_pbi + done_alta + done_media
+total_prog = total_conc + total_proj + total_c + total_sql + total_pbi + total_alta + total_media
 pct_prog   = round(done_prog / total_prog * 100, 1) if total_prog else 0
 pct_enem   = round(done_enem / total_enem * 100, 1) if total_enem else 0
 pct_en     = round(done_en / total_en * 100, 1) if total_en else 0
@@ -637,6 +820,9 @@ with st.sidebar:
     sidebar_bloco("⚙️","C — Lógica",       done_c,    total_c,    round(done_c/total_c*100) if total_c else 0)
     sidebar_bloco("🗄️","SQL",              done_sql,  total_sql,  round(done_sql/total_sql*100) if total_sql else 0)
     sidebar_bloco("📊","Power BI",         done_pbi,  total_pbi,  round(done_pbi/total_pbi*100) if total_pbi else 0)
+    sidebar_bloco("🔴","Alta Prioridade",  done_alta, total_alta, round(done_alta/total_alta*100) if total_alta else 0)
+    sidebar_bloco("🟡","Média Prioridade", done_media,total_media,round(done_media/total_media*100) if total_media else 0)
+    sidebar_bloco("🟢","Longo Prazo",      done_longo,total_longo,round(done_longo/total_longo*100) if total_longo else 0)
 
     st.markdown('<div style="font-size:11px!important;font-weight:600;color:#495057;margin:12px 0 8px">🌐 INGLÊS</div>', unsafe_allow_html=True)
     sidebar_bloco("🌐","Inglês", done_en, total_en, round(done_en/total_en*100) if total_en else 0)
@@ -676,8 +862,9 @@ st.markdown("<div style='height:20px'></div>", unsafe_allow_html=True)
 # ── Tabs ──────────────────────────────────────────────────────────────────
 rev_lbl = f"🔁 Revisão ENEM {'🔴' if due_today else ''}"
 tabs = st.tabs(["📅 Calendário","🐍 Python Conceitos","🚀 Python Projetos",
-                "⚙️ C — Lógica","🗄️ SQL","📊 Power BI","🌐 Inglês","📚 ENEM",rev_lbl])
-tab_cal,tab_conc,tab_proj,tab_c,tab_sql,tab_pbi,tab_en,tab_enem,tab_rev = tabs
+                "⚙️ C — Lógica","🗄️ SQL","📊 Power BI","🌐 Inglês",
+                "🎯 Carreira","📚 ENEM",rev_lbl])
+tab_cal,tab_conc,tab_proj,tab_c,tab_sql,tab_pbi,tab_en,tab_car,tab_enem,tab_rev = tabs
 
 # ── CALENDÁRIO ────────────────────────────────────────────────────────────
 with tab_cal:
@@ -784,6 +971,88 @@ render_modulos(C_MODULOS, "C", tab_c)
 render_modulos(SQL_MODULOS, "SQL", tab_sql)
 render_modulos(POWERBI_MODULOS, "PBI", tab_pbi)
 render_modulos(INGLES_MODULOS, "EN", tab_en)
+
+# ── CARREIRA ──────────────────────────────────────────────────────────────
+with tab_car:
+    pct_alta  = round(done_alta/total_alta*100)   if total_alta  else 0
+    pct_media = round(done_media/total_media*100) if total_media else 0
+    pct_longo = round(done_longo/total_longo*100) if total_longo else 0
+
+    # Visão geral
+    ca, cm, cl = st.columns(3)
+    for col, emoji, label, done, total, pct, cor, hint in [
+        (ca,"🔴","Alta Prioridade",  done_alta,  total_alta,  pct_alta,  "#c62828","Impacto direto em vaga — faça primeiro"),
+        (cm,"🟡","Média Prioridade", done_media, total_media, pct_media, "#e65100","Diferencial de portfólio"),
+        (cl,"🟢","Longo Prazo",      done_longo, total_longo, pct_longo, "#2e7d32","Quando tiver as bases sólidas"),
+    ]:
+        with col:
+            st.markdown(f"""
+            <div class="kpi" style="text-align:left;border-left:4px solid {cor}">
+                <div style="font-size:11px!important;color:{cor};font-weight:600;margin-bottom:4px">{emoji} {label}</div>
+                <div class="kpi-num" style="color:{cor}">{pct}%</div>
+                <div class="kpi-lbl">{done}/{total} tópicos</div>
+                <div style="font-size:10px!important;color:#adb5bd;margin-top:6px">{hint}</div>
+            </div>
+            """, unsafe_allow_html=True)
+            st.progress(pct/100)
+
+    st.markdown("<div style='height:24px'></div>", unsafe_allow_html=True)
+
+    # Alta prioridade
+    st.markdown('<div class="sec-label">🔴 Alta Prioridade — impacto direto em vaga</div>', unsafe_allow_html=True)
+    for mn, md in CARREIRA_ALTA.items():
+        done_m = sum(1 for t in md["topics"] if progress.get(make_key("Alta", mn, t), False))
+        total_m = len(md["topics"])
+        pct_m = round(done_m/total_m*100) if total_m else 0
+        with st.expander(f"{md['icon']} {mn}  —  {done_m}/{total_m}  ({pct_m}%)"):
+            st.progress(pct_m/100)
+            for topic in md["topics"]:
+                key = make_key("Alta", mn, topic)
+                cur = progress.get(key, False)
+                chk = st.checkbox(topic, value=cur, key=f"cb_{key}")
+                if chk != cur:
+                    progress[key] = chk
+                    save_topic(key, "Alta", mn, topic, chk)
+                    st.rerun()
+
+    st.markdown("<div style='height:12px'></div>", unsafe_allow_html=True)
+
+    # Média prioridade
+    st.markdown('<div class="sec-label">🟡 Média Prioridade — diferencial de portfólio</div>', unsafe_allow_html=True)
+    for mn, md in CARREIRA_MEDIA.items():
+        done_m = sum(1 for t in md["topics"] if progress.get(make_key("Media", mn, t), False))
+        total_m = len(md["topics"])
+        pct_m = round(done_m/total_m*100) if total_m else 0
+        with st.expander(f"{md['icon']} {mn}  —  {done_m}/{total_m}  ({pct_m}%)"):
+            st.progress(pct_m/100)
+            for topic in md["topics"]:
+                key = make_key("Media", mn, topic)
+                cur = progress.get(key, False)
+                chk = st.checkbox(topic, value=cur, key=f"cb_{key}")
+                if chk != cur:
+                    progress[key] = chk
+                    save_topic(key, "Media", mn, topic, chk)
+                    st.rerun()
+
+    st.markdown("<div style='height:12px'></div>", unsafe_allow_html=True)
+
+    # Longo prazo
+    st.markdown('<div class="sec-label">🟢 Longo Prazo — quando tiver as bases sólidas</div>', unsafe_allow_html=True)
+    for mn, md in CARREIRA_LONGO.items():
+        done_m = sum(1 for t in md["topics"] if progress.get(make_key("Longo", mn, t), False))
+        total_m = len(md["topics"])
+        pct_m = round(done_m/total_m*100) if total_m else 0
+        with st.expander(f"{md['icon']} {mn}  —  {done_m}/{total_m}  ({pct_m}%)"):
+            st.progress(pct_m/100)
+            st.markdown('<div style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:6px;padding:8px 12px;margin-bottom:10px"><div style="font-size:11px!important;color:#15803d">⏳ Comece esse módulo depois de dominar Alta e Média Prioridade</div></div>', unsafe_allow_html=True)
+            for topic in md["topics"]:
+                key = make_key("Longo", mn, topic)
+                cur = progress.get(key, False)
+                chk = st.checkbox(topic, value=cur, key=f"cb_{key}")
+                if chk != cur:
+                    progress[key] = chk
+                    save_topic(key, "Longo", mn, topic, chk)
+                    st.rerun()
 
 # ── PYTHON PROJETOS ───────────────────────────────────────────────────────
 with tab_proj:
