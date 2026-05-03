@@ -1,32 +1,25 @@
 # 🧠 Tracker de Estudos — Isaque Sena
 
-Aplicação Streamlit para acompanhar o progresso de estudos em Python, C, SQL, Power BI e ENEM 2026.
-
 ## Como rodar localmente
-
 ```bash
 pip install streamlit
 streamlit run app.py
 ```
 
 ## Como hospedar no Streamlit Cloud
-
-1. Suba este repositório no GitHub
+1. Suba no GitHub
 2. Acesse share.streamlit.io
-3. Clique em "New app"
-4. Selecione seu repositório e o arquivo `app.py`
-5. Clique em "Deploy"
+3. Selecione o repo e o arquivo app.py
+4. Deploy
 
-## Funcionalidades
-
-- Marcar tópicos como concluídos
-- Progresso salvo automaticamente em SQLite (`progresso.db`)
-- Barra de progresso por área e geral
-- Exportar progresso em CSV
-- Resetar progresso
-
-## Estrutura
-
-- `app.py` — aplicação principal
-- `requirements.txt` — dependências
-- `progresso.db` — banco SQLite (criado automaticamente)
+## O que tem
+- 📅 Calendário semanal com dia de hoje destacado
+- 🐍 Python Conceitos — 8 módulos do zero ao avançado
+- 🚀 Python Projetos — 10 projetos com tópicos detalhados
+- ⚙️ C — Lógica — 6 módulos do básico ao intermediário
+- 🗄️ SQL — Básico, Intermediário e Avançado (window functions, CTEs)
+- 📊 Power BI — DAX, modelagem, deploy
+- 📐 Matemática — 7 etapas do zero ao Cálculo
+- 🌐 Inglês — Vocabulário técnico, leitura e listening
+- 📖 Leitura e Interpretação — técnica PT/EN, código, livros
+- 🎯 Carreira — Alta, Média e Longo Prazo
